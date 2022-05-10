@@ -1,0 +1,92 @@
+.biography-address, .biography-contact, .biography-skills, .biography__icon, .biography, .container-cv, main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  outline: 1px solid orange;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: #ecf0f1;
+}
+
+.container-cv {
+  width: 100%;
+  height: 100vh;
+  max-width: 991px;
+  gap: 1rem;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 15px 51px 0 rgba(0, 45, 84, 0.13);
+  box-shadow: 0 15px 51px 0 rgba(0, 45, 84, 0.13);
+}
+
+.biography {
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  padding: 1rem;
+  background-color: tomato;
+  color: #fff;
+}
+.biography__icon {
+  width: 220px;
+}
+.biography__title {
+  text-align: center;
+}
+.biography-skills {
+  flex-direction: column;
+}
+.biography-skills__title {
+  font: normal 700 1.5rem/1.3 "Oxygen", sans-serif;
+}
+.biography-contact {
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+}
+.biography-contact__icon {
+  width: 3rem;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(10%) saturate(7434%) hue-rotate(234deg) brightness(110%) contrast(114%);
+}
+.biography-address {
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+}
+.biography-address__icon {
+  width: 3rem;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(10%) saturate(7434%) hue-rotate(234deg) brightness(110%) contrast(114%);
+}
+
+.expertise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */

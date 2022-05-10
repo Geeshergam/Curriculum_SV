@@ -1,0 +1,10 @@
+$white: #fff;
+$white-winter: #ecf0f1;
+$color-text: #24292f;
+$font-primary: 'Alliance No.1', sans-serif;
+$font-secondary: 'Lato', sans-serif;
+%center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

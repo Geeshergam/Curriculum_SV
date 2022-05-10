@@ -1,0 +1,84 @@
+doctype html
+html(lang="es")
+	head
+		meta(charset='UTF-8')
+		meta(http-equiv='X-UA-Compatible' content='IE=edge')
+		meta(name='viewport' content='width=device-width,initial-scale=1')
+		title Curriculum Vitae | Sebastián Vega
+		link(rel='stylesheet' href='https://necolas.github.io/normalize.css/8.0.1/normalize.css')
+		link(rel='preconnect' href='https://fonts.googleapis.com')
+		link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin)
+		link(href='https://fonts.googleapis.com/css2?family=Lato&display=swap' rel='stylesheet')
+		//link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400display=swap' rel='stylesheet')
+		link(rel='stylesheet' href='css/main.css')
+	body
+		main
+			.container-cv
+				section.biography
+					img.biography__icon(src='img/picture-seba.png' alt='LOGO')
+					h1.biography__title Sebastián Alejandro Vega Henríquez
+					h2.biography__subtitle 21 años
+					p.biography__desc Me considero una persona curiosa, muchas cosas me llaman la atención, claro, siempre manteniendo un enfoque en sectores que me sean productivos y de aprendizaje constante. Mis intereses van relacionados con el Humanismo, la Música y las Ártes, suelo aprender lo que me sea posible, y mejor si es en el área de la tecnología, de la que me he relacionado desde pequeño, desde desarmar el hardware de una PC de escritorio, hasta ahora... Incursionando en el mundo de la programación y trabajando en proyectos personales, buscando crecer laboralmente.
+					.biography-skills
+						h2.biography-skills__title Habilidades
+						ul.biography-skills__list
+							li Proactivo
+							li Trabajo en equipo
+							li Organizado
+							li Adaptación al cambio
+							li Comprometido
+					.biography-contact
+						img.biography-contact__icon(src='img/call.png' alt='ICON CONTACT')
+						a.biography-contact__phone(href='tel:+569 4776 2957') +569 4776 2957
+						a.biography-contact__mail(href='mailto:vegas.sebastian@gmail.com') vegas.sebastian@gmail.com
+					.biography-address
+						img.biography-address__icon(src='img/home.png' alt='ICON ADDRESS')
+						p.biography-address__title Dirección
+						p.biography-address__street Tucapel 452, Concepción
+				section.expertise
+					.expertise__header
+						img(src="img/medalla.png", alt="MEDALLA")
+						h2 Experiencia Laboral
+					//- Experiencia Laboral
+					.expertise-content
+						h3.expertise-content__title Mall del Centro
+						h4.expertise-content__subtitle Guardia de Seguridad - Fines de semana
+						p.expertise-content__date dic 2021 - mar 2022, Concepción
+					.expertise-content
+						h3.expertise-content__title Supermercado Mayorista Ganga
+						h4.expertise-content__subtitle Empaquetador
+						p.expertise-content__date feb 2018 - feb 2022, Tomé
+					.expertise-content
+						h3.expertise-content__title Supermercado Unimarc
+						h4.expertise-content__subtitle Empaquetador
+						p.expertise-content__date abr 2017 - ene 2018, Tomé
+					//- Tecnologías
+					.expertise__header
+						img(src="img/html5.png", alt="ESTUDIOS")
+						h2 Tecnologías
+					.expertise-content
+						h3.expertise-content__title HTML5 - CSS - SCSS - Pug - Javascript - GIT - Figma - Terminal - Notion
+					//- Estudios
+					.expertise__header
+						img(src="img/checkbox.png", alt="ESTUDIOS")
+						h2 Estudios
+					.expertise-content
+						h3.expertise-content__title Cursos de Desarrollo Web, Platzi
+						h4.expertise-content__subtitle Estudiante
+						p.expertise-content__date abr 2022 en adelante - online
+					.expertise-content
+						h3.expertise-content__title Talento Digital, Desafío Latam
+						h4.expertise-content__subtitle Desarrollador Front End
+						p.expertise-content__desc 
+						p.expertise-content__date jun 2021 - nov 2021
+					.expertise-content
+						h3.expertise-content__title Preuniversitario Baldor
+						h4.expertise-content__subtitle Estudios 
+						p.expertise-content__desc 
+						p.expertise-content__date 2019
+					//- Otras Habilidades
+					.expertise__header
+						img(src="img/musica.png", alt="ESTUDIOS")
+						h2 Otras Habilidades
+					.expertise-content
+						h3.expertise-content__title Músico Bajista, Fotógrafía, Ajedrez, Lectura
