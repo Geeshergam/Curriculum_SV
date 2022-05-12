@@ -193,6 +193,13 @@ main {
   position: relative;
   font: normal 800 1.5rem "Alliance No.1", sans-serif;
 }
+.expertise-content__title a {
+  display: contents;
+  color: #24292F;
+}
+.expertise-content__title a:hover {
+  color: #1c8df0;
+}
 .expertise-content__title::before {
   content: "";
   position: absolute;
