@@ -61,8 +61,8 @@ main {
   max-width: 991px;
   gap: 1rem;
   margin: 0 auto;
-  border-left: 1px solid #e6e6e6;
-  border-right: 1px solid #e6e6e6;
+  border-left: 1px solid rgb(230, 230, 230);
+  border-right: 1px solid rgb(230, 230, 230);
 }
 
 .biography {
@@ -188,17 +188,20 @@ main {
   color: #24292f;
   margin: 0 0 0.5rem;
 }
+.expertise-content__link {
+  color: #1c8df0;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+.expertise-content__link:hover {
+  color: #05aa82;
+  text-decoration: underline;
+  transition: all 1s ease;
+}
 .expertise-content__title {
   justify-content: flex-start;
   position: relative;
   font: normal 800 1.5rem "Alliance No.1", sans-serif;
-}
-.expertise-content__title a {
-  display: contents;
-  color: #24292F;
-}
-.expertise-content__title a:hover {
-  color: #1c8df0;
 }
 .expertise-content__title::before {
   content: "";
